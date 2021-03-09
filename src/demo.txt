@@ -1,0 +1,35 @@
+<App>               <-- todoData <-- done, important
+    <AppHeader>     <-- totalTodo, totalDone
+    <SearchPanel>   
+    <ItemStatusFilter>
+    <TodoList>
+        <TodoListItem>
+        <TodoListItem>
+
+
+
+
+
+
+<App>               
+    <AppHeader>     
+    <SearchPanel>   <-- SearchState, Result
+    <ItemStatusFilter>      |
+    <TodoList>      <-- Find Result in TodoList
+        <TodoListItem>
+        <TodoListItem>
+
+
+
+
+
+
+
+<App>                    Updating <---------|
+    <AppHeader>               |             |
+    <SearchPanel>       <-----|             |
+    <ItemStatusFilter>                      |
+    <TodoList>                              |    
+        <TodoListItem btn="edit">          / \
+        <TodoListItem btn="edit">           |  
+    

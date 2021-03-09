@@ -1,0 +1,14 @@
+.todo-app {
+  margin: 20% auto;
+  max-width: 700px;
+}
+
+.top-panel,
+.item-indecator {
+  margin: 1rem 0;
+}
+
+.item-btn-add {
+  flex-grow: 1 !important;
+  margin-right: 3px !important;
+}
